@@ -55,7 +55,7 @@ To run Counsellor locally, follow these steps:
 1. Clone this repository to your local machine using:
 
    ```
-   git clone https://github.com/Ambrish2408/EduFed
+git clone https://github.com/Ambrish2408/EduFed.git
    ```
 
 2. Navigate to the project directory:
@@ -144,10 +144,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact 📞
 
 ## Contributing 
-For any inquiries or questions regarding Counsellor, please contact the project owner: [Sahil Ali ](https://github.com/thestarsahil).
+For any inquiries or questions regarding Counsellor, please contact the project owner: [Ambrish Yadav ](https://github.com/Ambrish2408).
 <p align="center">
-  <a href="https://github.com/thestarsahil">
-    <img src="https://github.com/thestarsahil.png" width="120" height="120" alt="thestarsahil" />
+  <a href="https://github.com/Ambrish2408/EduFed.git">
+    <img src="https://github.com/Ambrish2408/EduFed.png" width="120" height="120" alt="thestarambrish" />
   </a>
 </p>
 
@@ -155,8 +155,4 @@ For any inquiries or questions regarding Counsellor, please contact the project 
 Thank you for your interest in Counsellor! We hope it can provide valuable support to those in need.
 =======
 ## Contributors
-<p align="center">
-  <a href="https://github.com/thestarsahil/Counsellor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=thestarsahil/Counsellor" />
-</a>
-</p>
+
