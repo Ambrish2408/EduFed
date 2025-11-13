@@ -55,7 +55,7 @@ To run Counsellor locally, follow these steps:
 1. Clone this repository to your local machine using:
 
    ```
-   git clone https://github.com/thestarsahil/Counsellor.git
+   git clone https://github.com/Ambrish2408/EduFed
    ```
 
 2. Navigate to the project directory:
