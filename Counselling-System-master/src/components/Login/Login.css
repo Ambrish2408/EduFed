@@ -1,0 +1,224 @@
+.login-container {
+  font-family: "ABeeZee";
+  /* margin-top: 10px; */
+  width: 100vw;
+}
+
+.left {
+  height: 100vh;
+  justify-content: center;
+  background-color: #5CB6F9;
+}
+
+/* Left side container of login page => same as signup page */
+
+/* Right side container of login page */
+.sign-in {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.right .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #1877f2;
+  margin: 3% 20%;
+  padding: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.googleicon {
+  width: 30px;
+}
+
+.right .login-with-google {
+  font-size: 16px;
+}
+
+.or-line {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+
+.or-line hr {
+  width: 27%;
+  margin: auto 10px;
+  border-width: 0;
+  height: 1px;
+  background: gray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20%;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"],
+.login-container input[type="text"] {
+  width: 95%;
+  padding: 12px;
+  margin: 5px 0 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: 2px solid #d8d8d8;
+  outline: none;
+}
+
+.login-container input[type="checkbox"] {
+  width: unset;
+}
+
+label[for="user-name"],
+label[for="password"],
+label[for="remember-me"] {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.login-container .login_btn {
+  width: 100%;
+  padding: 16px;
+  margin: 7px 0;
+  font-size: 16px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-container .login_btn:hover {
+  background-color: #12229d;
+}
+
+.login-container .forgot-password {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 15px;
+}
+
+.login-container .dont-have-account {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.login-container .toggle-button {
+  cursor: pointer;
+}
+
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.get-app-title {
+  font-size: 16px;
+  color: gray;
+}
+
+.get-app .apps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.microsoft-logo {
+  width: 110px;
+}
+
+.google-play-logo {
+  width: 150px;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.errorShow {
+  height: 40px;
+}
+
+.errorShow p {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+}
+
+input.inputField,
+input.firstname-text.inputField,
+input.surname-text.inputField,
+input.password-text.inputField,
+input.dob.inputField,
+select.inputField {
+  border-color: red;
+}
+
+.password-input {
+  position: relative;
+  width: 100%;
+}
+
+.password-input .toggle-button {
+  position: absolute;
+  top: 50%;
+  right: 4% !important;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .login-container form {
+    padding: 0 10%;
+  }
+  .right .google {
+    margin: 3% 10%;
+    padding: 10px 0;
+  }
+  .login-container form input.common-input {
+    width: 100% !important;
+  }
+  .password-input .toggle-button {
+    /* right: 5px; */
+    right:5px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-container form input.common-input {
+    width: 100% !important;
+  }
+
+  .login-container form input[type="checkbox"] {
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .password-input .toggle-button {
+    right: 10px !important;
+  }
+}
+
+
+.inputField {
+  border-color: red !important;
+}
+
+.errorMsg {
+  color: red;
+}
